@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository to your local machine.
 
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/GuilhermeToso/heatmap-app.git
     ```
 
 2. Navigate to the ReactJs application directory.
@@ -74,7 +74,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Authors
 
-* **gUILHERME m. tOSO** - *Initial work* - [YourGithubProfile](https://github.com/GuilhermeToso)
+* **Guilherme M. Toso** - *Initial work* - [GuilhermeToso](https://github.com/GuilhermeToso)
 
 ## License
 
