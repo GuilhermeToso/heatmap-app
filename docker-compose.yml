@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  heatmap-client:
+    build:
+      context: ./heatmap-client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - heatmap-network
+    restart: unless-stopped
+
+  heatmap-server:
+    build:
+      context: ./heatmap-server
+      dockerfile: Dockerfile
+    ports:
+      - "3333:3333"
+    networks:
+      - heatmap-network
+    restart: unless-stopped
+
+networks:
+  heatmap-network:
+    driver: bridge
